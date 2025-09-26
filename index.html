@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <script>
+      const redirects = {
+      "recent_open_ear_earbuds_experiences": "https://lvnta.com/lv_hfB7Ysrj4zePMFj3sD",
+"best_tablet_for_everyday_use": "https://lvnta.com/lv_aLyYDGDghL7VdRW7mt",
+"what_are_the_best_mattress": "https://lvnta.com/lv_EqrqCQhEy5DV5zKcfo",
+"looking_for_best_portable_steamer": "https://lvnta.com/lv_rs2Yab27yQsexJNNXv",
+"ive_washed_my_armpits_twice": "https://lvnta.com/lv_NZmsjEBttXmXZCgTxf",
+"i_need_cute_walking_shoes": "https://lvnta.com/lv_0LeyVTM6sAxFBfX0yB",
+"recommend_bedroom_projector": "https://lvnta.com/lv_LPDnlr55UfEcDOdmzf",
+"whats_the_best_hair_straightener": "https://lvnta.com/lv_axY335ENQYe8Va9GoZ",
+"best_head_shaver_to_buy": "https://lvnta.com/lv_FJo8GNN7kcl082Zmkt",
+"alternatives_to_airpods": "https://lvnta.com/lv_PmNpK5CnDAP2gqdp4Z",
+"sans_water_purifier_vs_other": "https://lvnta.com/lv_2G99p6250loTK6rGe6",
+"dont_be_like_me_actually": "https://lvnta.com/lv_PT22fdQZjVBesmaDSD",
+"best_brand_of_hori_hori": "https://lvnta.com/lv_TPRROlZTtjUgz99Ib7",
+"best_smartwatchgps_watch": "https://lvnta.com/lv_syuVQbCSeMe9lCbxjH",
+"what_is": "https://lvnta.com/lv_zrXSYTULuDGsOt3FtM",
+"electrolyte_powders": "https://lvnta.com/lv_J0bxurUn0c90i0F5vV",
+"what_form_of_potassium_is": "https://lvnta.com/lv_uGXAvMHpm58LqRhjYC",
+"these_are_the_most_recommended": "https://lvnta.com/lv_cBwL1ZYcSWn7611YeI",
+"clean_sunscreen": "https://lvnta.com/lv_TxZzda3u2MSKmxmGq3",
+"please_recommend_me_the_bestofthebest": "https://lvnta.com/lv_exU8B3fQT9b98iOcdn",
+"needed_hiking_socks_recommendations": "https://lvnta.com/lv_6Dae6z7v22VtIWpiu0",
+"recommendations_for_period_panties_with": "https://lvnta.com/lv_WyOVfAfnOHurOfZCz8",
+"good_travel_steamer": "https://lvnta.com/lv_vBjhFU9Pbah8D1zpYA",
+"best_earbuds_for_phone_call": "https://lvnta.com/lv_K3slZIYgcHGyHc7uvb",
+"backyard_swingsetplayset": "https://lvnta.com/lv_1Yt799cEYiFNvbZLBN",
+"best_argan_oil_brand_in": "https://lvnta.com/lv_smIhnUkJCb5eC0IaH0",
+"what_is_a_good_drinking": "https://lvnta.com/lv_ETimXLRKdvHGFJdHko",
+"whats_the_best_vitamin_d": "https://lvnta.com/lv_3qx8RlfQR3TeZ87zsX"
+        // Add more shortlinks here, example lang to^
+      };
+      function getParam(name) {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name);
+      }
+      const key = getParam("to");
+      const url = redirects[key?.toLowerCase()];
+      if (url) {
+        window.location.replace(url);
+      } else {
+        document.write("<h2>Redirect not found</h2><p>Use ?to=shortname</p>");
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
